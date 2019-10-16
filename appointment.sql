@@ -192,9 +192,9 @@ CREATE TABLE `history_appointments` (
 --
 
 INSERT INTO `history_appointments` (`history_id`, `history_patientname`, `history_email`, `history_phonenumber`, `history_age`, `history_department_id`, `history_doctor_id`, `history_day_id`, `history_date`, `created_at`, `updated_at`) VALUES
-(2, 'Jacklin Htoo', 'thutayarmoe97@gmail.com', '09972089188', 22, 2, 4, 4, '2019-09-26', '2019-09-28 14:08:37', '2019-09-28 14:08:37'),
-(3, 'Thuta Yar Moe', 'staystronglikeasun1997@gmail.com', '09789456123', 22, 6, 11, 1, '2019-09-16', '2019-09-28 14:08:37', '2019-09-28 14:08:37'),
-(4, 'Jacklin Htoo', 'hteemoo25@gmail.com', '09456123789', 22, 5, 16, 5, '2019-09-20', '2019-09-28 14:08:37', '2019-09-28 14:08:37');
+(2, 'Jacklin Htoo', 'mgmg@gmail.com', '0912345678', 22, 2, 4, 4, '2019-09-26', '2019-09-28 14:08:37', '2019-09-28 14:08:37'),
+(3, 'Thuta Yar Moe', 'kyawkyaw@gmail.com', '0923456789', 22, 6, 11, 1, '2019-09-16', '2019-09-28 14:08:37', '2019-09-28 14:08:37'),
+(4, 'Jacklin Htoo', 'koko@gmail.com', '0912345678', 22, 5, 16, 5, '2019-09-20', '2019-09-28 14:08:37', '2019-09-28 14:08:37');
 
 --
 -- Indexes for dumped tables
