@@ -35,7 +35,7 @@ require 'PHPMailer-5.2-stable/PHPMailerAutoload.php';
           $mail->Port = 465;                                   
           $mail->setFrom('mgmg@gmail.com','App');
           $mail->addAddress($patient_email);   
-          $mail->addReplyTo('mgmg.com');
+          $mail->addReplyTo('mgmg@gmail.com');
           $mail->isHTML(true); 
          $xo = $conn->query("SELECT * FROM appointments WHERE email='$patient_email' AND doctor_id='$doctor_id'");
          $zero = $xo->fetch_assoc();
